@@ -38,3 +38,13 @@ const findMaxAverage = function (nums, k) {
 nums = [1, 12, -5, -6, 50, 3];
 k = 4;
 findMaxAverage(nums, k);
+
+/*
+The time and space complexity for finding the maximum average of a subarray of length `k` in an input array `nums` is as follows:
+
+Time Complexity:
+- The code uses a single loop that iterates through the `nums` array once, from left to right. Therefore, the time complexity is O(n), where n is the length of the input array.
+
+Space Complexity:
+- The space complexity of your code is O(1) because it uses a constant amount of extra space regardless of the size of the input array. The extra space is used for variables like `maxAvgValue`, `windowSum`, and `windowAvgValue`, which do not depend on the input size and remain constant throughout the execution.
+*/
